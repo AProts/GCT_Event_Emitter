@@ -5,6 +5,7 @@ const deviceEventEmitterFactory = require('./device-event.emitter.factory');
 
 module.exports.startProcessing = () => {
     if (!fs.existsSync(config.path)) {
+        fs.mkdirSync(path);
         fs.appendFile(config.path, config.fields.join(";"), encoding = 'utf8', function (err) {
             if (err) throw err;
         });
