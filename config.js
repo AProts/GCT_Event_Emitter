@@ -7,7 +7,7 @@ const DEVICE_TYPES = {
 const fields = ['id', 'cycle_id', 'device_key', 'timestamp', 'name', 'ds', 'data'];
 
 module.exports = {
-    path: "/home/aprots/WebstormProjects/notifications/log.csv",
+    path: "/home/aprots/WebstormProjects/notifications/out/log.csv",
     cycle_id,
     event_id,
     DEVICE_TYPES,
